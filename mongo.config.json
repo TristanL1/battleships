@@ -1,0 +1,7 @@
+{
+  "scheme": "mongodb+srv://",
+  "address": "your mongo address",
+  "defaultDatabase": "boards",
+  "username": "your mongo user",
+  "password": "your mongo password"
+}

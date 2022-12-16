@@ -1,0 +1,1 @@
+{"win":false,"playerNumber":1,"myGuess":[],"playerGrid":{"ships_placed":5,"carrier":[35,36,37,38,39],"battleship":[26,27,28,29],"cruiser":[22,23,24],"submarine":[16,17,18],"destroyer":[4,5],"enemy_guess":[]},"opponentGrid":{"hits":[],"misses":[],"ships_sunk":0,"carrier":5,"battleship":4,"cruiser":3,"submarine":3,"destroyer":2}}

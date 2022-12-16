@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+    <head>
+        <link rel ="stylesheet" href = "styles.css">
+        <script src = "app.js" charset = "utf-8"></script>
+    </head>
+
+    <body>
+        <p id = "player">Battleship Player </p>
+        <div class = "container">  
+            <div class = "container-1">
+                <p>Enemy Grid</p>
+                <div class = "battleship-grid enemy-grid"></div>
+                <p>Your Grid </p>
+                <div class = "battleship-grid my-grid"></div>
+            </div>
+
+            <div class = "container-2">
+                <section class = "info">
+                    <p>Info</p>
+                    <p id = "status">Waiting for both players to click ready....</p>
+                    <p id = "playerTurn"></p> 
+                    <p id = "sunkenShip"></p>
+                    <p id = "winner"></p>
+                </section>
+
+                <section>
+                    <button id = "rotate">Rotate Ships</button>
+                    <button disabled id = "ready">Ready</button>
+                </section>
+
+                <div class = "ships-grid"> 
+
+                    <div class = "ship carrier-container" draggable="true"> 
+                        <div id = "carrier-0"> </div>
+                        <div id = "carrier-1"> </div>
+                        <div id = "carrier-2"> </div>
+                        <div id = "carrier-3"> </div>
+                        <div id = "carrier-4"> </div>
+                    </div>
+
+                    <div class = "ship battleship-container" draggable="true"> 
+                        <div id = "battleship-0"> </div>
+                        <div id = "battleship-1"> </div>
+                        <div id = "battleship-2"> </div>
+                        <div id = "battleship-3"> </div>
+                    </div>
+                    
+                    <div class = "ship cruiser-container" draggable="true"> 
+                        <div id = "cruiser-0"> </div>
+                        <div id = "cruiser-1"> </div>
+                        <div id = "cruiser-2"> </div>
+                    </div>
+
+                    <div class = "ship submarine-container" draggable="true"> 
+                        <div id = "submarine-0"> </div>
+                        <div id = "submarine-1"> </div>
+                        <div id = "submarine-2"> </div>
+                    </div>
+
+                    <div class = "ship destroyer-container" draggable="true"> 
+                        <div id = "destroyer-0"> </div>
+                        <div id = "destroyer-1"> </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
